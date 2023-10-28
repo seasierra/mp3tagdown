@@ -1,0 +1,10 @@
+{
+  "tasks": {
+    "start": "deno run -A --unstable index.ts http://tol.humanus.org.ru/sound/zilant09/",
+    "new": "deno run -A --unstable index.ts http://tol.humanus.org.ru/sound/zilant09/ --new",
+    "read": "deno run -A --unstable read.ts"
+  },
+  "compilerOptions": {
+    "lib": ["deno.unstable", "dom", "dom.iterable"]
+  }
+}
